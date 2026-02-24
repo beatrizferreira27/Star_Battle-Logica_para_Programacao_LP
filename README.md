@@ -29,6 +29,7 @@ Os ficheiros puzzles.pl, codigoAuxiliar.pl e testes_publicos.plt têm que estar 
 
 ```bash
 swipl -l projecto.pl -g run_tests -t halt testes_publicos.plt
+```
 
 Para obter uma explicação mais detalhada do projeto, consultar o documento pdf com o enunciado.
 
