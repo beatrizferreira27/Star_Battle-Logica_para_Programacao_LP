@@ -21,6 +21,15 @@ Principais Componentes:
     - Fecho de Estruturas: Completa automaticamente linhas ou regiões quando estas atingem o limite de estrelas ou espaços livres.
     - Deteção de Padrões: Aplicação de padrões lógicos (Padrão I e Padrão T) em sequências de variáveis.
 
+**Como testar**
+
+Para garantir a qualidade e a correção dos predicados, o projeto pode ser testado localmente utilizando o módulo de testes do SWI-Prolog.
+
+Os ficheiros puzzles.pl, codigoAuxiliar.pl e testes_publicos.plt têm que estar na mesma diretoria que o projecto.pl. Depois, correr o seguinte comando no terminal:
+
+```bash
+swipl -l projecto.pl -g run_tests -t halt testes_publicos.plt
+
 Para obter uma explicação mais detalhada do projeto, consultar o documento pdf com o enunciado.
 
 Este projeto foi classificado com nota máxima.
